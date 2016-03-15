@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="gb2312"?>
+<scene>
+  <Property file=""/>
+  <block>
+    <Property name="block1"/>
+    <Property simpleGeometry="0 0 0 300.322 30 200"/>
+    <Property map=""/>
+    <Property isStair="false"/>
+    <entity>
+      <Property name="pCube33"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="true"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 30 4 0.009848 199.171 1.00985 199.171 1.00985 0.783083 0.009848 0.783083"/>
+      <Property levels=""/>
+      <Property include=""/>
+      <Property nodename="pCube33"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="pCube17"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="true"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 30 4 0.051795 1.03068 300.322 1.03068 300.322 0.030681 0.051795 0.030681"/>
+      <Property levels=""/>
+      <Property include=""/>
+      <Property nodename="pCube17"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="pCube34"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="true"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 30 4 298.986 199.538 299.986 199.538 299.986 1.07326 298.986 1.07326"/>
+      <Property levels=""/>
+      <Property include=""/>
+      <Property nodename="pCube34"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="pCube36"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="true"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 30 4 0.264446 199.81 142.366 199.81 142.366 198.81 0.264446 198.81"/>
+      <Property levels=""/>
+      <Property include=""/>
+      <Property nodename="pCube36"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="pCube38"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="true"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 30 4 155.996 199.81 298.097 199.81 298.097 198.81 155.996 198.81"/>
+      <Property levels=""/>
+      <Property include=""/>
+      <Property nodename="pCube38"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="room1"/>
+      <Property isDoor="false"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="false"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0 0 4 0 200 300 200 300 0 0 0"/>
+      <Property levels="1"/>
+      <Property include="1  0"/>
+      <Property nodename="floor"/>
+      <Property material=""/>
+    </entity>
+    <entity>
+      <Property name="pCube37"/>
+      <Property isDoor="true"/>
+      <Property isWindow=""/>
+      <Property isLocked=""/>
+      <Property isOpen=""/>
+      <Property isObstacle="false"/>
+      <Property isVirtual=""/>
+      <Property simpleGeometry="0.248491 21.9852 4 143.122 199.791 155.1 199.791 155.1 199.09 143.122 199.09"/>
+      <Property levels="6"/>
+      <Property include="0"/>
+      <Property nodename="door"/>
+      <Property material=""/>
+    </entity>    
+  </block>
+</scene>

@@ -1,0 +1,1397 @@
+Group {
+  name "1door.obj"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 7
+  Geode {
+    name "pCube17"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "wallpaper2.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        0.051795 -1.03068 0
+        300.322 -1.03068 0
+        300.322 -1.03068 30
+        0.051795 -1.03068 30
+        0.051795 -1.03068 30
+        300.322 -1.03068 30
+        300.322 -0.030681 30
+        0.051795 -0.030681 30
+        0.051795 -0.030681 30
+        300.322 -0.030681 30
+        300.322 -0.030681 0
+        0.051795 -0.030681 0
+        0.051795 -0.030681 0
+        300.322 -0.030681 0
+        300.322 -1.03068 0
+        0.051795 -1.03068 0
+        300.322 -1.03068 0
+        300.322 -0.030681 0
+        300.322 -0.030681 30
+        300.322 -1.03068 30
+        0.051795 -0.030681 0
+        0.051795 -1.03068 0
+        0.051795 -1.03068 30
+        0.051795 -0.030681 30
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 1 0
+        0 1 0
+        0 1 0
+        0 1 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+        0.625 0
+        0.875 0
+        0.875 0.25
+        0.625 0.25
+        0.125 0
+        0.375 0
+        0.375 0.25
+        0.125 0.25
+      }
+    }
+  }
+  Geode {
+    name "pCube33"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "wallpaper2.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        1.00985 -199.171 0
+        1.00985 -0.783083 0
+        1.00985 -0.783083 30
+        1.00985 -199.171 30
+        1.00985 -199.171 30
+        1.00985 -0.783083 30
+        0.009848 -0.783083 30
+        0.009848 -199.171 30
+        0.009848 -199.171 30
+        0.009848 -0.783083 30
+        0.009848 -0.783083 0
+        0.009848 -199.171 0
+        0.009848 -199.171 0
+        0.009848 -0.783083 0
+        1.00985 -0.783083 0
+        1.00985 -199.171 0
+        1.00985 -0.783083 0
+        0.009848 -0.783083 0
+        0.009848 -0.783083 30
+        1.00985 -0.783083 30
+        0.009848 -199.171 0
+        1.00985 -199.171 0
+        1.00985 -199.171 30
+        0.009848 -199.171 30
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 1 0
+        0 1 0
+        0 1 0
+        0 1 0
+        -0 -1 0
+        -0 -1 0
+        -0 -1 0
+        -0 -1 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+        0.625 0
+        0.875 0
+        0.875 0.25
+        0.625 0.25
+        0.125 0
+        0.375 0
+        0.375 0.25
+        0.125 0.25
+      }
+    }
+  }
+  Geode {
+    name "pCube34"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "wallpaper2.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        299.986 -199.538 0
+        299.986 -1.07326 0
+        299.986 -1.07326 30
+        299.986 -199.538 30
+        299.986 -199.538 30
+        299.986 -1.07326 30
+        298.986 -1.07326 30
+        298.986 -199.538 30
+        298.986 -199.538 30
+        298.986 -1.07326 30
+        298.986 -1.07326 0
+        298.986 -199.538 0
+        298.986 -199.538 0
+        298.986 -1.07326 0
+        299.986 -1.07326 0
+        299.986 -199.538 0
+        299.986 -1.07326 0
+        298.986 -1.07326 0
+        298.986 -1.07326 30
+        299.986 -1.07326 30
+        298.986 -199.538 0
+        299.986 -199.538 0
+        299.986 -199.538 30
+        298.986 -199.538 30
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 1 0
+        0 1 0
+        0 1 0
+        0 1 0
+        -0 -1 0
+        -0 -1 0
+        -0 -1 0
+        -0 -1 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+        0.625 0
+        0.875 0
+        0.875 0.25
+        0.625 0.25
+        0.125 0
+        0.375 0
+        0.375 0.25
+        0.125 0.25
+      }
+    }
+  }
+  Geode {
+    name "pCube36"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "wallpaper2.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        0.264446 -199.81 0
+        142.366 -199.81 0
+        142.366 -199.81 30
+        0.264446 -199.81 30
+        0.264446 -199.81 30
+        142.366 -199.81 30
+        142.366 -198.81 30
+        0.264446 -198.81 30
+        0.264446 -198.81 30
+        142.366 -198.81 30
+        142.366 -198.81 0
+        0.264446 -198.81 0
+        0.264446 -198.81 0
+        142.366 -198.81 0
+        142.366 -199.81 0
+        0.264446 -199.81 0
+        142.366 -199.81 0
+        142.366 -198.81 0
+        142.366 -198.81 30
+        142.366 -199.81 30
+        0.264446 -198.81 0
+        0.264446 -199.81 0
+        0.264446 -199.81 30
+        0.264446 -198.81 30
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 1 0
+        0 1 0
+        0 1 0
+        0 1 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+        0.625 0
+        0.875 0
+        0.875 0.25
+        0.625 0.25
+        0.125 0
+        0.375 0
+        0.375 0.25
+        0.125 0.25
+      }
+    }
+  }
+  Geode {
+    name "pCube38"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "wallpaper2.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        155.996 -199.81 0
+        298.097 -199.81 0
+        298.097 -199.81 30
+        155.996 -199.81 30
+        155.996 -199.81 30
+        298.097 -199.81 30
+        298.097 -198.81 30
+        155.996 -198.81 30
+        155.996 -198.81 30
+        298.097 -198.81 30
+        298.097 -198.81 0
+        155.996 -198.81 0
+        155.996 -198.81 0
+        298.097 -198.81 0
+        298.097 -199.81 0
+        155.996 -199.81 0
+        298.097 -199.81 0
+        298.097 -198.81 0
+        298.097 -198.81 30
+        298.097 -199.81 30
+        155.996 -198.81 0
+        155.996 -199.81 0
+        155.996 -199.81 30
+        155.996 -198.81 30
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -1 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 1 0
+        0 1 0
+        0 1 0
+        0 1 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+        0.625 0
+        0.875 0
+        0.875 0.25
+        0.625 0.25
+        0.125 0
+        0.375 0
+        0.375 0.25
+        0.125 0.25
+      }
+    }
+  }
+  Geode {
+    name "pPlane1"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "floor1.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 18
+      {
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          20 21 18 19 16 17 14 15 12 13
+          10 11 8 9 6 7 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          21 32 19 31 17 30 15 29 13 28
+          11 27 9 26 7 25 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          32 43 31 42 30 41 29 40 28 39
+          27 38 26 37 25 36 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          43 54 42 53 41 52 40 51 39 50
+          38 49 37 48 36 47 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          54 65 53 64 52 63 51 62 50 61
+          49 60 48 59 47 58 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          65 76 64 75 63 74 62 73 61 72
+          60 71 59 70 58 69 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          76 87 75 86 74 85 73 84 72 83
+          71 82 70 81 69 80 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          87 98 86 97 85 96 84 95 83 94
+          82 93 81 92 80 91 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          98 109 97 108 96 107 95 106 94 105
+          93 104 92 103 91 102 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          109 120 108 119 107 118 106 117 105 116
+          104 115 103 114 102 113 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          113 101 102 90 91 79 80 68 69 57
+          58 46 47 35 36 24 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          101 88 90 77 79 66 68 55 57 44
+          46 33 35 22 24 2 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 16
+        {
+          88 78 77 67 66 56 55 45 44 34
+          33 23 22 3 2 0 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 7
+        {
+          0 1 2 5 24 25 36 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 5
+        {
+          1 4 5 7 25 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 7
+        {
+          113 112 101 99 88 89 78 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 5
+        {
+          112 110 99 100 89 
+        }
+        DrawElementsUShort TRIANGLES 6
+        {
+          4 6 7 100 110 111 
+        }
+      }
+      VertexArray Vec3Array 121
+      {
+        0 -200 0
+        30 -200 0
+        30 -180 0
+        0 -180 0
+        60 -200 0
+        60 -180 0
+        90 -200 0
+        90 -180 0
+        120 -200 0
+        120 -180 0
+        150 -200 0
+        150 -180 0
+        180 -200 0
+        180 -180 0
+        210 -200 0
+        210 -180 0
+        240 -200 0
+        240 -180 0
+        270 -200 0
+        270 -180 0
+        300 -200 0
+        300 -180 0
+        30 -160 0
+        0 -160 0
+        60 -160 0
+        90 -160 0
+        120 -160 0
+        150 -160 0
+        180 -160 0
+        210 -160 0
+        240 -160 0
+        270 -160 0
+        300 -160 0
+        30 -140 0
+        0 -140 0
+        60 -140 0
+        90 -140 0
+        120 -140 0
+        150 -140 0
+        180 -140 0
+        210 -140 0
+        240 -140 0
+        270 -140 0
+        300 -140 0
+        30 -120 0
+        0 -120 0
+        60 -120 0
+        90 -120 0
+        120 -120 0
+        150 -120 0
+        180 -120 0
+        210 -120 0
+        240 -120 0
+        270 -120 0
+        300 -120 0
+        30 -100 0
+        0 -100 0
+        60 -100 0
+        90 -100 0
+        120 -100 0
+        150 -100 0
+        180 -100 0
+        210 -100 0
+        240 -100 0
+        270 -100 0
+        300 -100 0
+        30 -80 0
+        0 -80 0
+        60 -80 0
+        90 -80 0
+        120 -80 0
+        150 -80 0
+        180 -80 0
+        210 -80 0
+        240 -80 0
+        270 -80 0
+        300 -80 0
+        30 -60 0
+        0 -60 0
+        60 -60 0
+        90 -60 0
+        120 -60 0
+        150 -60 0
+        180 -60 0
+        210 -60 0
+        240 -60 0
+        270 -60 0
+        300 -60 0
+        30 -40 0
+        0 -40 0
+        60 -40 0
+        90 -40 0
+        120 -40 0
+        150 -40 0
+        180 -40 0
+        210 -40 0
+        240 -40 0
+        270 -40 0
+        300 -40 0
+        30 -20 0
+        0 -20 0
+        60 -20 0
+        90 -20 0
+        120 -20 0
+        150 -20 0
+        180 -20 0
+        210 -20 0
+        240 -20 0
+        270 -20 0
+        300 -20 0
+        30 -0 0
+        0 -0 0
+        60 -0 0
+        90 -0 0
+        120 -0 0
+        150 -0 0
+        180 -0 0
+        210 -0 0
+        240 -0 0
+        270 -0 0
+        300 -0 0
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 121
+      {
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+      }
+      TexCoordArray 0 Vec2Array 121
+      {
+        0 0
+        0.1 0
+        0.1 0.1
+        0 0.1
+        0.2 0
+        0.2 0.1
+        0.3 0
+        0.3 0.1
+        0.4 0
+        0.4 0.1
+        0.5 0
+        0.5 0.1
+        0.6 0
+        0.6 0.1
+        0.7 0
+        0.7 0.1
+        0.8 0
+        0.8 0.1
+        0.9 0
+        0.9 0.1
+        1 0
+        1 0.1
+        0.1 0.2
+        0 0.2
+        0.2 0.2
+        0.3 0.2
+        0.4 0.2
+        0.5 0.2
+        0.6 0.2
+        0.7 0.2
+        0.8 0.2
+        0.9 0.2
+        1 0.2
+        0.1 0.3
+        0 0.3
+        0.2 0.3
+        0.3 0.3
+        0.4 0.3
+        0.5 0.3
+        0.6 0.3
+        0.7 0.3
+        0.8 0.3
+        0.9 0.3
+        1 0.3
+        0.1 0.4
+        0 0.4
+        0.2 0.4
+        0.3 0.4
+        0.4 0.4
+        0.5 0.4
+        0.6 0.4
+        0.7 0.4
+        0.8 0.4
+        0.9 0.4
+        1 0.4
+        0.1 0.5
+        0 0.5
+        0.2 0.5
+        0.3 0.5
+        0.4 0.5
+        0.5 0.5
+        0.6 0.5
+        0.7 0.5
+        0.8 0.5
+        0.9 0.5
+        1 0.5
+        0.1 0.6
+        0 0.6
+        0.2 0.6
+        0.3 0.6
+        0.4 0.6
+        0.5 0.6
+        0.6 0.6
+        0.7 0.6
+        0.8 0.6
+        0.9 0.6
+        1 0.6
+        0.1 0.7
+        0 0.7
+        0.2 0.7
+        0.3 0.7
+        0.4 0.7
+        0.5 0.7
+        0.6 0.7
+        0.7 0.7
+        0.8 0.7
+        0.9 0.7
+        1 0.7
+        0.1 0.8
+        0 0.8
+        0.2 0.8
+        0.3 0.8
+        0.4 0.8
+        0.5 0.8
+        0.6 0.8
+        0.7 0.8
+        0.8 0.8
+        0.9 0.8
+        1 0.8
+        0.1 0.9
+        0 0.9
+        0.2 0.9
+        0.3 0.9
+        0.4 0.9
+        0.5 0.9
+        0.6 0.9
+        0.7 0.9
+        0.8 0.9
+        0.9 0.9
+        1 0.9
+        0.1 1
+        0 1
+        0.2 1
+        0.3 1
+        0.4 1
+        0.5 1
+        0.6 1
+        0.7 1
+        0.8 1
+        0.9 1
+        1 1
+      }
+    }
+  }
+  Geode {
+    name "pCube37"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+	  StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+         textureUnit 0 {
+              GL_TEXTURE_2D ON
+              Texture2D {
+                DataVariance STATIC
+                file "color.jpg"
+                wrap_s REPEAT
+                wrap_t REPEAT
+                wrap_r CLAMP_TO_EDGE
+                min_filter LINEAR_MIPMAP_LINEAR
+                mag_filter LINEAR
+                maxAnisotropy 1
+                borderColor 0 0 0 0
+                borderWidth 0
+                useHardwareMipMapGeneration TRUE
+                unRefImageDataAfterApply FALSE
+                internalFormatMode USE_IMAGE_DATA_FORMAT
+                resizeNonPowerOfTwo TRUE
+              }
+            }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 4
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 16
+      {
+        155.1 -199.791 0.248491
+        155.1 -199.09 0.248491
+        155.1 -199.09 21.9852
+        155.1 -199.791 21.9852
+        155.1 -199.791 21.9852
+        155.1 -199.09 21.9852
+        143.122 -199.09 21.9852
+        143.122 -199.791 21.9852
+        143.122 -199.791 21.9852
+        143.122 -199.09 21.9852
+        143.122 -199.09 0.248491
+        143.122 -199.791 0.248491
+        143.122 -199.791 0.248491
+        143.122 -199.09 0.248491
+        155.1 -199.09 0.248491
+        155.1 -199.791 0.248491
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 16
+      {
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        0 -0 1
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        -1 0 0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+      }
+      TexCoordArray 0 Vec2Array 16
+      {
+        0.375 0
+        0.625 0
+        0.625 0.25
+        0.375 0.25
+        0.375 0.25
+        0.625 0.25
+        0.625 0.5
+        0.375 0.5
+        0.375 0.5
+        0.625 0.5
+        0.625 0.75
+        0.375 0.75
+        0.375 0.75
+        0.625 0.75
+        0.625 1
+        0.375 1
+      }
+    }
+  }
+}
